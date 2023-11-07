@@ -1,0 +1,15 @@
+*When no.of values you want to pass is not known.
+*Like we pass multiple values in print function.
+*The values are being stored in tuple.
+
+Eg:
+def display(*args):
+    print(args)
+display()
+display(1)
+display(2,3)
+
+o/p:
+()
+(1)
+(2,3)
